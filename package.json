@@ -1,6 +1,6 @@
 {
   "name": "eslint-plugin-no-editor-code",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Removes vscode fold folding comments (#region, #regionend)",
   "main": "index.js",
   "scripts": {

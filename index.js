@@ -19,5 +19,3 @@ module.exports.rules = function(context) {
     }
   }
 }
-
-module.exports.schema = [];
