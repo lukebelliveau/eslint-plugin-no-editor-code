@@ -1,11 +1,17 @@
 {
   "name": "eslint-plugin-no-editor-code",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Removes vscode fold folding comments (#region, #regionend)",
-  "main": "index.js",
-  "scripts": {
-    "test": "test"
-  },
+  "repository" : {
+      "type" : "git",
+      "url" : "https://github.com/lukebelliveau/eslint-plugin-no-editor-code.git"
+    },
+  "keywords": [
+    "eslint",
+    "eslintplugin",
+    "eslint-plugin"
+  ],
   "author": "lukebelliveau",
+  "main": "index.js",
   "license": "ISC"
 }
