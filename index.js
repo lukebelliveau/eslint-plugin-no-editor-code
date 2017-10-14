@@ -1,6 +1,9 @@
 module.exports = {
   rules: {
     'no-region': {
+      meta: {
+        fixable: "code",
+      },
       create: function(context) {
         return {
           Program(node) {
@@ -14,10 +17,13 @@ module.exports = {
               ) {
                 return;
               }
-              context.report(
-                c,
-                "Do not use vscode fold regions"
-              )
+              context.report({
+                node: c,
+                message: "Do not use vscode fold regions",
+                fix: function(fixer) {
+                  return fixer.remove(c);
+                }
+              })
             })
           }
         }

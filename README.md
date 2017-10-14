@@ -24,3 +24,7 @@ Place the plugin and rule in your .eslintrc like so. Replace "warn" with "error"
     }
 }
 ```
+
+## Fix
+
+This rule is auto-fixable! Run ESLint with `--fix` to remove the comments.
